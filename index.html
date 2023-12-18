@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carmila Dima - Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/images/logo-bs.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    element.style {
+        background-color: #660066 !important;
+        border-radius: 0;
+    }</style>
+</head>
+<style>
+    /* Gambar Latar belakang */
+body {
+    background-image: url('assets/images/bg.png');
+    background-color: #cccccc;
+    }
+    /* Navbar */
+    .navbar {
+        background-color: #800080; /* Warna ungu tua */
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ffffff !important; /* Warna teks putih */
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-color: #ffffff; /* Warna ikon toggler */
+    }
+
+    /* Header */
+    header {
+        background-color: #800080; /* Warna ungu tua */
+        color: #ffffff; /* Warna teks putih */
+    }
+
+    /* Main Container */
+    main {
+        background-color: #a116a1 !important; /* Warna ungu tua */
+        border-radius: 10px; /* Atur nilai border-radius sesuai keinginan Anda */
+        
+    }
+
+    /* Konten Kiri */
+    .col-md-9 {
+        background-color: #be26be !important; /* Warna ungu tua */
+        width: 50; /* Ubah lebar sesuai kebutuhan Anda */
+        height: 50%; /* Ubah tinggi sesuai kebutuhan Anda */
+        border-radius: 10px; /* Atur nilai border-radius sesuai keinginan Anda */
+    }
+
+    /* Card Konten */
+    .card {
+        background-color: #4B0082; /* Warna ungu tua */
+        color: #000000; /* Warna teks putih */
+    }
+
+    /* Foto Profil */
+    .col-md-3 {
+        background-color: #be26be !important; /* Warna ungu tua */
+        width: 45; /* Ubah lebar sesuai kebutuhan Anda */
+        height: 45%; /* Ubah tinggi sesuai kebutuhan Anda */
+        border-radius: 10px; /* Atur nilai border-radius sesuai keinginan Anda */
+    }
+
+    /* Link Terkait */
+    .container-fluid.py-3 {
+        background-color: #be26be !important; /* Warna ungu tua */
+        border-radius: 10px; 
+        
+
+    }
+
+    /* Footer */
+    footer {
+        background-color: #752097; /* Warna ungu tua */
+        color: #ffffff; /* Warna teks putih */
+    }
+  
+    /* Carousel Indicator */
+    .carousel-indicators button {
+        background-color: #800080 !important; /* Warna ungu punk */
+    }
+  </style>
+<body>
+  <!-- Bagian Header -->
+  <header class="container-fluid py-3 text-white"  style=" background-color: #660066 !important;" >
+      <div class="row" >
+          <div class="col-12 text-center">
+              <div class="container ratio ratio-1x1 w-25">
+                  <img class="rounded-circle img-thumbnail" src="assets/images/foto-profile.jpg" alt="Gambar">
+              </div>
+              <h1>Carmila Dima</h1>
+              <p class="lead">--22110043--</p>
+          </div>
+      </div>
+  </header>
+  <!-- Bagian Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-navbar sticky-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img class="rounded-pill" src="assets/images/logo.png" alt="Logo" style="width:40px; border-radius: 20px;" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" data-bs-theme="dark" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Beranda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Referensi</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" target="_blank" href="https://www.petanikode.com/">Petani
+                                  Kode</a></li>
+                          <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/">W3
+                                  Schools</a></li>
+                          <li><a class="dropdown-item" target="_blank" href="https://getbootstrap.com/">Get
+                                  Bootstrap</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Kontak</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  
+  <!-- Bagian Main -->
+  <main class="container my-3">
+      <!-- Bagian Carousel -->
+     
+          <div class="col-12 mt-3">
+              <div class="container">
+                  <!-- Carousel -->
+                  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                      <!-- Indicators/dots -->
+                      <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                      </div>
+                      <!-- The slideshow/carousel -->
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="assets/images/slide/1.png" alt="Slide 1" class="d-block" style="width:100%">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="assets/images/slide/2.png" alt="Slide 2" class="d-block" style="width:100%">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="assets/images/slide/3.png" alt="Slide 3" class="d-block" style="width:100%">
+                          </div>
+                      </div>
+                      <!-- Left and right controls/icons -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+        </main>
+      </div>
+      <hr>
+      <!-- Bagian Main - 3 Kolom -->
+      <div class="row" >
+          <!-- Kolom Kecil Bagian Kiri (Profil) -->
+          <div class="col-md-3">
+            <div class="container-fluid py-3" style="background-color: #2f1b8a;">
+                <!-- Isi dari Profil dimulai dari sini -->
+                <div class="card">
+                    <div class="card-header text-light" style="background-color: #741b8a;">
+                        <h5><i class="fa fa-user"></i> Profil</h5>
+                    </div>
+                    <img class="w-100" src="assets/images/foto-profile.jpg " alt="Gambar" >
+                    <div class="card-body" style="background-color: #ffffff;">
+                        <h4 class="card-title text-center" ><span class="badge rounded-pill" style=" background-color: #d30ab1; " >My
+                                Profile</span></h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="fa fa-user text-warning"></i> Carmila Dima</li>
+                            <li class="list-group-item"><i class="fa fa-id-card-o text-warning"></i> Mahasiswa</li>
+                            <li class="list-group-item"><i class="fa fa-phone text-warning"></i> 087745902111</li>
+                            <li class="list-group-item text-center">
+                                <a href="about.html" class="btn btn-primary mx-auto" >
+                                    <i class="fa fa-search"></i> See Profile
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Isi dari Profil berakhir di sini -->
+            </div>
+        </div>
+        
+          <!-- Kolom Kecil Bagian Kiri berakhir di sini -->
+          <!-- Kolom Besar Bagian Tengah (Konten) -->
+          <div class="col-md-6">
+              <div class="container-fluid py-3 " style="background-color: #2f1b8a;">
+                  <!-- Isi dari Bagian Konten dimulai dari sini -->
+                  <img class="card-img-top" src="assets/images/banner.png" alt="Gambar" style="width:100%">
+                  <h1>Edukasi Cyber Security</h1>
+                  <p>
+                      Edukasi tentang cyber security melibatkan pemahaman dan penguasaan konsep-konsep yang membantu melindungi informasi dan aktivitas online. Dalam era di mana teknologi informasi semakin canggih, pemahaman tentang keamanan siber sangat penting.
+                  </p>
+                  <h2>Rincian Pembelajaran Cyber Security</h2>
+                  <ol>
+                      <li><strong>Pengenalan Keamanan Cyber:</strong> Memahami risiko-risiko umum yang terkait dengan keamanan siber, termasuk serangan malware, ransomware, dan serangan DDoS.</li>
+                      <li><strong>Keamanan Perangkat:</strong> Belajar cara melindungi perangkat seperti komputer, ponsel, dan perangkat IoT dari ancaman keamanan siber.</li>
+                      <li><strong>Keamanan Jaringan:</strong> Mempelajari cara mengamankan jaringan komputer dengan firewall, enkripsi, dan pemantauan keamanan.</li>
+                      <li><strong>Pencegahan Serangan Phishing:</strong> Mengetahui cara mengenali dan mencegah serangan phishing untuk melindungi informasi pribadi.</li>
+                      <li><strong>Manajemen Kata Sandi:</strong> Belajar praktik terbaik dalam manajemen kata sandi untuk meningkatkan keamanan akses ke akun-akun online.</li>
+                      <li><strong>Audit Keamanan:</strong> Memahami pentingnya melakukan audit keamanan secara berkala untuk mengidentifikasi dan mengatasi potensi kerentanan.</li>
+                      <li><strong>Pemantauan Keamanan:</strong> Menerapkan praktik pemantauan keamanan untuk mendeteksi dan merespons cepat terhadap aktivitas mencurigakan.</li>
+                      <li><strong>Pemulihan Data:</strong> Mempersiapkan rencana pemulihan data untuk mengatasi insiden keamanan dan memulihkan sistem setelah serangan.</li>
+                  </ol>
+                  <p>
+                      Edukasi keamanan cyber security memberikan kemampuan untuk melindungi diri dan organisasi dari ancaman keamanan siber. Dengan pemahaman yang baik, individu dapat berkontribusi pada pembentukan lingkungan digital yang lebih aman dan terpercaya.
+                  </p>
+        
+                  <!-- Isi dari Bagian Konten berakhir di sini -->
+              </div>
+          </div>
+          <!-- Kolom Besar Bagian Tengah (Konten) berakhir di sini -->
+          <!-- Kolom Kecil Bagian Kanan (Profil) -->
+          <div class="col-md-3">
+              <div class="container-fluid py-3 "style="background-color: #2f1b8a;">
+                  <!-- Isi Link Terkait dimulai dari sini -->
+                  <div class="card">
+                      <div class="card-header text-light" style="background-color: #741b8a;">
+                          <h5><i class="fa fa-external-link-square"></i> Link Terkait</h5>
+                      </div>
+                      <div class="card-body"  style="background-color: #ffffff;">
+                          <p class="text-center">Berikut adalah link terkait </p>
+                          <div class="container mt-3">
+                            <div class="list-group list-group-flush">
+                                <a href="https://www.cyberaces.org/" target="_blank" class="list-group-item list-group-item-action">Cyber Security Awareness</a>
+                                <a href="https://www.edx.org/learn/information-security" target="_blank" class="list-group-item list-group-item-action">Keamanan Siber untuk Pemula</a>
+                                <a href="https://www.cybrary.it/" target="_blank" class="list-group-item list-group-item-action">Keamanan Jaringan untuk Pemula</a>
+                                <a href="https://owasp.org/" target="_blank" class="list-group-item list-group-item-action">Pedoman Keamanan Siber untuk Organisasi</a>
+                                <a href="https://www.coursera.org/specializations/intro-cyber-security" target="_blank" class="list-group-item list-group-item-action">Pentesting untuk Pemula</a>
+                              </div>
+                              
+                      </div>
+                  </div>
+                  <!-- Isi Link Terkait berakhir di sini -->
+              </div>
+          </div>
+          <!-- Kolom Kecil Bagian Kanan berakhir di sini -->
+      </div>
+  </main>
+   <!-- Bagian Footer -->
+   <footer class="container-fluid py-3 text-white" style="background-color: #343a40;">
+    <div class="row">
+      <div class="col-12 text-center">
+        &copy; Copyright <script>document.write(new Date().getFullYear())</script>. Carmila Dima -
+        <a class="text-decoration-none" target="_blank" href="https://www.facebook.com/carmiladima.carmiladima?mibextid=9R9pXO"><strong>Facebook</strong></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
